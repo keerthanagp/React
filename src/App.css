@@ -1,0 +1,89 @@
+.mainpage{
+  background-color: orange;
+  height: 20rem;
+  width: 100%;
+  clip-path: polygon(50% 0%, 100% 0, 100% 38%, 0 94%, 0 0);
+  color: white;
+  text-align: center;
+  margin-top: 3.5rem;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pricingCart{
+  height: 100vh;
+  width: 90%;
+  background-color:whitesmoke;
+  margin: 40px;
+}
+.cartbody{
+  scroll-behavior: smooth;
+  transition: 5s linear;
+}
+.cartbody:hover{
+
+  text-decoration: underline;
+  color: rgba(255, 166, 0, 0.841);
+  
+}
+.cartTitle{
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  border-radius: 0.5rem;
+}
+.cartTitle:hover{
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+.cartTitle .cartbody{
+margin: 25px;
+padding: 30px;
+
+}
+.textbold{
+  font-weight: 900;
+}
+.button{
+  text-align: center;
+  
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media only screen and (max-width: 600px){
+  .pricingCart{
+    position: relative;
+    top: 0; bottom: 25rem;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
